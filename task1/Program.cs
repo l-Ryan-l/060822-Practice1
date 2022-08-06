@@ -5,10 +5,10 @@
 // a = -3, b = 9 -> да
 
 Console.WriteLine("Введите число A: ");
-int numberA = int.Parse(Console.ReadLine());
+int numberA = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Введите число B: ");
-int numberB = int.Parse(Console.ReadLine());
+int numberB = int.Parse(Console.ReadLine()!);
 
 if(numberA == Math.Sqrt(numberB))
 {
